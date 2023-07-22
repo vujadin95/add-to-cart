@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEF0F4;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+}
+
+.app-container {
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.app-container img {
+  max-width: 150px;
+}
+
+.app-container input {
+  color: #730606;
+  background-color: #DCE1EB;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-family: inherit;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.app-container input:focus {
+  outline: none;
+}
+
+.app-container button {
+  background-color: #BF2424;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  color: #FDFDFD;
+  font-size: 20px;
+  width: 100%;
+}
+
+.app-container button:hover {
+  cursor: pointer;
+  background-color: #730606;
+}
+
+.app-container button:focus {
+  outline: none;
+}
+
+.app-container ul {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.app-container ul li {
+  background-color: #FFFDF8;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #432000;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.app-container ul li:hover {
+  cursor: pointer;
+  background-color: #FFECC7;
+}
